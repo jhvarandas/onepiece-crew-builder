@@ -120,3 +120,22 @@ describe('grants', () => {
     await supabase.db.exec('reset role')
   })
 })
+
+describe('the deployed functions', () => {
+  // Supabase loads pg-safeupdate for API requests: an UPDATE or DELETE without a WHERE clause
+  // fails at runtime, even inside a function. PGlite can't load the extension, so check the
+  // function bodies as they stand after every migration.
+  it('never UPDATE or DELETE without a WHERE clause', async () => {
+    const functions = await supabase.admin(`
+      select p.proname as name, p.prosrc as body
+        from pg_proc p join pg_namespace n on n.oid = p.pronamespace
+       where n.nspname = 'public'`) as { name: string, body: string }[]
+    expect(functions.length).toBeGreaterThan(10)
+    const unguarded = functions.flatMap(({ name, body }) =>
+      body.replace(/--.*$/gm, '').split(';')
+        .map(statement => statement.replace(/\s+/g, ' ').trim())
+        .filter(statement => /\b(update|delete from)\s+public\./i.test(statement) && !/\bwhere\b/i.test(statement))
+        .map(statement => `${name}: ${statement}`))
+    expect(unguarded).toEqual([])
+  })
+})

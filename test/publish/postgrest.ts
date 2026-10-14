@@ -1,17 +1,20 @@
-import { readFileSync } from 'node:fs'
+import { readdirSync, readFileSync } from 'node:fs'
 import { PGlite } from '@electric-sql/pglite'
 
-// Supabase in a test: PGlite (Postgres 17 in WebAssembly) running the real migration, behind
+// Supabase in a test: PGlite (Postgres 17 in WebAssembly) running the real migrations, behind
 // a minimal stand-in for PostgREST's RPC endpoint. supabaseStore talks to it over its normal
 // fetch path, so the adapter and the SQL are tested together.
 
-const migration = readFileSync(new URL('../../supabase/migrations/0001_content_publishing.sql', import.meta.url), 'utf8')
+const migrationsDir = new URL('../../supabase/migrations/', import.meta.url)
+/** The migrations in the order they are applied, as [file name, SQL]. */
+const migrations = readdirSync(migrationsDir).filter(f => f.endsWith('.sql')).sort()
+  .map(f => [f, readFileSync(new URL(f, migrationsDir), 'utf8')] as const)
 
 export async function supabaseInMemory() {
   const db = new PGlite()
   // Supabase's API roles, which the migration's grants refer to.
   await db.exec(`create role anon nologin; create role authenticated nologin; create role service_role nologin;`)
-  await db.exec(migration)
+  for (const [, sql] of migrations) await db.exec(sql)
 
   /** Runs SQL as the database owner, e.g. to move a lease's expiry into the past. */
   const admin = async (sql: string, params: unknown[] = []) => (await db.query(sql, params)).rows
