@@ -1,0 +1,210 @@
+{
+  "keyPattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+  "slugPattern": "^[a-z0-9]+(?:-[a-z0-9]+)*(?:\\/[a-z0-9]+(?:-[a-z0-9]+)*)*$",
+  "stats": [
+    {
+      "stat": "combat",
+      "field": "statCombat",
+      "weightField": "weightCombat"
+    },
+    {
+      "stat": "leadership",
+      "field": "statLeadership",
+      "weightField": "weightLeadership"
+    },
+    {
+      "stat": "navigation",
+      "field": "statNavigation",
+      "weightField": "weightNavigation"
+    },
+    {
+      "stat": "precision",
+      "field": "statPrecision",
+      "weightField": "weightPrecision"
+    },
+    {
+      "stat": "provisions",
+      "field": "statProvisions",
+      "weightField": "weightProvisions"
+    },
+    {
+      "stat": "medicine",
+      "field": "statMedicine",
+      "weightField": "weightMedicine"
+    },
+    {
+      "stat": "knowledge",
+      "field": "statKnowledge",
+      "weightField": "weightKnowledge"
+    },
+    {
+      "stat": "shipcraft",
+      "field": "statShipcraft",
+      "weightField": "weightShipcraft"
+    },
+    {
+      "stat": "morale",
+      "field": "statMorale",
+      "weightField": "weightMorale"
+    },
+    {
+      "stat": "helm",
+      "field": "statHelm",
+      "weightField": "weightHelm"
+    }
+  ],
+  "statRange": {
+    "min": 0,
+    "max": 100
+  },
+  "weightRange": {
+    "min": 0,
+    "max": 5
+  },
+  "roles": [
+    "captain",
+    "fighter",
+    "swordsman",
+    "navigator",
+    "sniper",
+    "cook",
+    "doctor",
+    "scholar",
+    "shipwright",
+    "musician",
+    "helmsman"
+  ],
+  "powerTypes": [
+    "none",
+    "paramecia",
+    "zoan",
+    "logia"
+  ],
+  "factions": [
+    "straw-hat",
+    "heart",
+    "kid",
+    "whitebeard",
+    "red-hair",
+    "big-mom",
+    "beasts",
+    "blackbeard",
+    "cross-guild",
+    "marine",
+    "revolutionary",
+    "world-government",
+    "independent"
+  ],
+  "haki": [
+    "observation",
+    "armament",
+    "conqueror"
+  ],
+  "abilityKinds": [
+    "devilFruit",
+    "haki",
+    "technique",
+    "compound"
+  ],
+  "positions": [
+    "captain",
+    "first-mate",
+    "combatant",
+    "navigator",
+    "sniper",
+    "cook",
+    "doctor",
+    "archaeologist",
+    "shipwright",
+    "musician",
+    "helmsman"
+  ],
+  "presetSeats": [
+    {
+      "field": "captain",
+      "position": "captain",
+      "label": "Captain"
+    },
+    {
+      "field": "firstMate",
+      "position": "first-mate",
+      "label": "First mate"
+    },
+    {
+      "field": "combatant1",
+      "position": "combatant",
+      "label": "Combatant 1"
+    },
+    {
+      "field": "combatant2",
+      "position": "combatant",
+      "label": "Combatant 2"
+    },
+    {
+      "field": "navigator",
+      "position": "navigator",
+      "label": "Navigator"
+    },
+    {
+      "field": "sniper",
+      "position": "sniper",
+      "label": "Sniper"
+    },
+    {
+      "field": "cook",
+      "position": "cook",
+      "label": "Cook"
+    },
+    {
+      "field": "doctor",
+      "position": "doctor",
+      "label": "Doctor"
+    },
+    {
+      "field": "archaeologist",
+      "position": "archaeologist",
+      "label": "Archaeologist"
+    },
+    {
+      "field": "shipwright",
+      "position": "shipwright",
+      "label": "Shipwright"
+    },
+    {
+      "field": "musician",
+      "position": "musician",
+      "label": "Musician"
+    },
+    {
+      "field": "helmsman",
+      "position": "helmsman",
+      "label": "Helmsman"
+    }
+  ],
+  "conceptFacets": [
+    "theme",
+    "arc",
+    "affiliation",
+    "devilFruit",
+    "goal",
+    "audience"
+  ],
+  "blockTypes": [
+    "blockHero",
+    "blockFeatureGrid",
+    "blockCta",
+    "blockTestimonial"
+  ],
+  "actionTargetTypes": [
+    "page",
+    "crewPreset",
+    "objective",
+    "character"
+  ],
+  "richTextLinkTypes": [
+    "page",
+    "crewPreset",
+    "objective",
+    "character"
+  ]
+}

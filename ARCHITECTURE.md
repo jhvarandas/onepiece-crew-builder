@@ -1,6 +1,6 @@
 # onepiece-x architecture
 
-Status: designed and reviewed. Implementation started 2026-10-14: the engine (`shared/engine/`) and the v1 rules (`shared/rules/`) exist with tests; content, persistence and the app don't yet.
+Status: designed and reviewed. Implementation started 2026-10-14. Done, with tests: the engine (`shared/engine/`), the v1 rules (`shared/rules/`), the content snapshot's pure parts (`server/content/`: content-model migration, raw snapshot and hashes, adapter and validation gate, delivery fetcher), and a replicable seed (`contentful/seed.json` + `pnpm content:seed`). Not yet: the publish path (lease, promote, Blob, purge), persistence and the app.
 Last updated: 2026-10-14.
 
 This document is the design for a learning sandbox: a One Piece–themed marketing site built with Nuxt, Contentful (free tier), Pinia and Supabase, hosted on Vercel (Hobby). It is written to teach. Every decision names the alternatives and says why one won. Sections marked **(review)** changed because a skeptic reviewer found a problem.

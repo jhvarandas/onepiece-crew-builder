@@ -1,0 +1,1130 @@
+{
+  "locale": "en-US",
+  "entries": [
+    {
+      "id": "co-wano",
+      "contentType": "concept",
+      "fields": {
+        "key": "wano",
+        "label": "Wano",
+        "facet": "arc",
+        "synonyms": [
+          "Land of Wano"
+        ]
+      }
+    },
+    {
+      "id": "ab-monster-trio",
+      "contentType": "ability",
+      "fields": {
+        "key": "monster-trio",
+        "name": "Monster Trio",
+        "kind": "compound"
+      }
+    },
+    {
+      "id": "ab-king-and-swordsman",
+      "contentType": "ability",
+      "fields": {
+        "key": "king-and-swordsman",
+        "name": "King and Swordsman",
+        "kind": "compound"
+      }
+    },
+    {
+      "id": "ab-gomu-gomu",
+      "contentType": "ability",
+      "fields": {
+        "key": "gomu-gomu",
+        "name": "Gomu Gomu no Mi",
+        "kind": "devilFruit"
+      }
+    },
+    {
+      "id": "ch-luffy",
+      "contentType": "character",
+      "fields": {
+        "key": "luffy",
+        "name": "Monkey D. Luffy",
+        "status": "active",
+        "roles": [
+          "captain",
+          "fighter"
+        ],
+        "powerType": "zoan",
+        "faction": "straw-hat",
+        "haki": [
+          "observation",
+          "armament",
+          "conqueror"
+        ],
+        "statCombat": 95,
+        "statLeadership": 90,
+        "statNavigation": 4,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 40,
+        "statHelm": 10,
+        "epithet": "Straw Hat",
+        "bounty": 3000000000,
+        "abilities": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "ab-gomu-gomu"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch-zoro",
+      "contentType": "character",
+      "fields": {
+        "key": "zoro",
+        "name": "Roronoa Zoro",
+        "status": "active",
+        "roles": [
+          "swordsman",
+          "fighter"
+        ],
+        "powerType": "none",
+        "faction": "straw-hat",
+        "formerKeys": [
+          "zolo"
+        ],
+        "haki": [
+          "observation",
+          "armament",
+          "conqueror"
+        ],
+        "statCombat": 92,
+        "statLeadership": 50,
+        "statNavigation": 2,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-nami",
+      "contentType": "character",
+      "fields": {
+        "key": "nami",
+        "name": "Nami",
+        "status": "active",
+        "roles": [
+          "navigator"
+        ],
+        "powerType": "none",
+        "faction": "straw-hat",
+        "statCombat": 35,
+        "statLeadership": 10,
+        "statNavigation": 95,
+        "statPrecision": 30,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 40
+      }
+    },
+    {
+      "id": "ch-usopp",
+      "contentType": "character",
+      "fields": {
+        "key": "usopp",
+        "name": "Usopp",
+        "status": "active",
+        "roles": [
+          "sniper"
+        ],
+        "powerType": "none",
+        "faction": "straw-hat",
+        "haki": [
+          "observation"
+        ],
+        "statCombat": 45,
+        "statLeadership": 10,
+        "statNavigation": 10,
+        "statPrecision": 92,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 40,
+        "statMorale": 50,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-sanji",
+      "contentType": "character",
+      "fields": {
+        "key": "sanji",
+        "name": "Vinsmoke Sanji",
+        "status": "active",
+        "roles": [
+          "cook",
+          "fighter"
+        ],
+        "powerType": "none",
+        "faction": "straw-hat",
+        "haki": [
+          "observation",
+          "armament"
+        ],
+        "statCombat": 88,
+        "statLeadership": 10,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 98,
+        "statMedicine": 20,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-chopper",
+      "contentType": "character",
+      "fields": {
+        "key": "chopper",
+        "name": "Tony Tony Chopper",
+        "status": "active",
+        "roles": [
+          "doctor"
+        ],
+        "powerType": "zoan",
+        "faction": "straw-hat",
+        "statCombat": 50,
+        "statLeadership": 10,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 95,
+        "statKnowledge": 40,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-robin",
+      "contentType": "character",
+      "fields": {
+        "key": "robin",
+        "name": "Nico Robin",
+        "status": "active",
+        "roles": [
+          "scholar"
+        ],
+        "powerType": "paramecia",
+        "faction": "straw-hat",
+        "haki": [
+          "observation"
+        ],
+        "statCombat": 70,
+        "statLeadership": 10,
+        "statNavigation": 20,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 98,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-franky",
+      "contentType": "character",
+      "fields": {
+        "key": "franky",
+        "name": "Franky",
+        "status": "active",
+        "roles": [
+          "shipwright",
+          "fighter"
+        ],
+        "powerType": "none",
+        "faction": "straw-hat",
+        "statCombat": 72,
+        "statLeadership": 10,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 96,
+        "statMorale": 10,
+        "statHelm": 30
+      }
+    },
+    {
+      "id": "ch-brook",
+      "contentType": "character",
+      "fields": {
+        "key": "brook",
+        "name": "Brook",
+        "status": "active",
+        "roles": [
+          "musician",
+          "swordsman"
+        ],
+        "powerType": "paramecia",
+        "faction": "straw-hat",
+        "haki": [
+          "observation"
+        ],
+        "statCombat": 68,
+        "statLeadership": 10,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 95,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-jinbe",
+      "contentType": "character",
+      "fields": {
+        "key": "jinbe",
+        "name": "Jinbe",
+        "status": "active",
+        "roles": [
+          "helmsman",
+          "fighter"
+        ],
+        "powerType": "none",
+        "faction": "straw-hat",
+        "haki": [
+          "observation",
+          "armament"
+        ],
+        "statCombat": 85,
+        "statLeadership": 60,
+        "statNavigation": 50,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 96
+      }
+    },
+    {
+      "id": "ch-ace",
+      "contentType": "character",
+      "fields": {
+        "key": "ace",
+        "name": "Portgas D. Ace",
+        "status": "active",
+        "roles": [
+          "captain",
+          "fighter"
+        ],
+        "powerType": "logia",
+        "faction": "whitebeard",
+        "haki": [
+          "observation",
+          "armament",
+          "conqueror"
+        ],
+        "statCombat": 88,
+        "statLeadership": 75,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-marco",
+      "contentType": "character",
+      "fields": {
+        "key": "marco",
+        "name": "Marco",
+        "status": "active",
+        "roles": [
+          "fighter",
+          "doctor"
+        ],
+        "powerType": "zoan",
+        "faction": "whitebeard",
+        "haki": [
+          "observation",
+          "armament"
+        ],
+        "statCombat": 90,
+        "statLeadership": 55,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 70,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-yamato",
+      "contentType": "character",
+      "fields": {
+        "key": "yamato",
+        "name": "Yamato",
+        "status": "active",
+        "roles": [
+          "fighter"
+        ],
+        "powerType": "zoan",
+        "faction": "independent",
+        "haki": [
+          "observation",
+          "armament",
+          "conqueror"
+        ],
+        "statCombat": 90,
+        "statLeadership": 40,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-law",
+      "contentType": "character",
+      "fields": {
+        "key": "law",
+        "name": "Trafalgar Law",
+        "status": "active",
+        "roles": [
+          "captain",
+          "doctor"
+        ],
+        "powerType": "paramecia",
+        "faction": "heart",
+        "haki": [
+          "observation",
+          "armament"
+        ],
+        "statCombat": 88,
+        "statLeadership": 75,
+        "statNavigation": 30,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 92,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-kid",
+      "contentType": "character",
+      "fields": {
+        "key": "kid",
+        "name": "Eustass Kid",
+        "status": "active",
+        "roles": [
+          "captain",
+          "fighter"
+        ],
+        "powerType": "paramecia",
+        "faction": "kid",
+        "haki": [
+          "observation",
+          "armament",
+          "conqueror"
+        ],
+        "statCombat": 89,
+        "statLeadership": 70,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 40,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-killer",
+      "contentType": "character",
+      "fields": {
+        "key": "killer",
+        "name": "Killer",
+        "status": "active",
+        "roles": [
+          "fighter"
+        ],
+        "powerType": "none",
+        "faction": "kid",
+        "haki": [
+          "observation",
+          "armament"
+        ],
+        "statCombat": 84,
+        "statLeadership": 10,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-hawkins",
+      "contentType": "character",
+      "fields": {
+        "key": "hawkins",
+        "name": "Basil Hawkins",
+        "status": "active",
+        "roles": [
+          "captain"
+        ],
+        "powerType": "paramecia",
+        "faction": "beasts",
+        "statCombat": 70,
+        "statLeadership": 60,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 40,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-drake",
+      "contentType": "character",
+      "fields": {
+        "key": "drake",
+        "name": "X Drake",
+        "status": "active",
+        "roles": [
+          "captain",
+          "fighter"
+        ],
+        "powerType": "zoan",
+        "faction": "marine",
+        "haki": [
+          "observation",
+          "armament"
+        ],
+        "statCombat": 80,
+        "statLeadership": 60,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-bonney",
+      "contentType": "character",
+      "fields": {
+        "key": "bonney",
+        "name": "Jewelry Bonney",
+        "status": "active",
+        "roles": [
+          "captain"
+        ],
+        "powerType": "paramecia",
+        "faction": "independent",
+        "statCombat": 72,
+        "statLeadership": 55,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 40,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-apoo",
+      "contentType": "character",
+      "fields": {
+        "key": "apoo",
+        "name": "Scratchmen Apoo",
+        "status": "active",
+        "roles": [
+          "captain",
+          "musician"
+        ],
+        "powerType": "paramecia",
+        "faction": "beasts",
+        "statCombat": 72,
+        "statLeadership": 10,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 70,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-urouge",
+      "contentType": "character",
+      "fields": {
+        "key": "urouge",
+        "name": "Urouge",
+        "status": "active",
+        "roles": [
+          "captain",
+          "fighter"
+        ],
+        "powerType": "paramecia",
+        "faction": "independent",
+        "statCombat": 80,
+        "statLeadership": 10,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-bege",
+      "contentType": "character",
+      "fields": {
+        "key": "bege",
+        "name": "Capone Bege",
+        "status": "active",
+        "roles": [
+          "captain"
+        ],
+        "powerType": "paramecia",
+        "faction": "big-mom",
+        "statCombat": 70,
+        "statLeadership": 65,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-blackbeard",
+      "contentType": "character",
+      "fields": {
+        "key": "blackbeard",
+        "name": "Marshall D. Teach",
+        "status": "active",
+        "roles": [
+          "captain",
+          "fighter"
+        ],
+        "powerType": "logia",
+        "faction": "blackbeard",
+        "haki": [
+          "observation",
+          "armament"
+        ],
+        "statCombat": 94,
+        "statLeadership": 80,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-koby",
+      "contentType": "character",
+      "fields": {
+        "key": "koby",
+        "name": "Koby",
+        "status": "active",
+        "roles": [
+          "fighter"
+        ],
+        "powerType": "none",
+        "faction": "marine",
+        "haki": [
+          "observation",
+          "armament"
+        ],
+        "statCombat": 70,
+        "statLeadership": 10,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-iceburg",
+      "contentType": "character",
+      "fields": {
+        "key": "iceburg",
+        "name": "Iceburg",
+        "status": "active",
+        "roles": [
+          "shipwright"
+        ],
+        "powerType": "none",
+        "faction": "independent",
+        "statCombat": 20,
+        "statLeadership": 60,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 95,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ch-kuro",
+      "contentType": "character",
+      "fields": {
+        "key": "kuro",
+        "name": "Kuro",
+        "status": "retired",
+        "roles": [
+          "captain"
+        ],
+        "powerType": "none",
+        "faction": "independent",
+        "statCombat": 60,
+        "statLeadership": 50,
+        "statNavigation": 10,
+        "statPrecision": 10,
+        "statProvisions": 10,
+        "statMedicine": 10,
+        "statKnowledge": 10,
+        "statShipcraft": 10,
+        "statMorale": 10,
+        "statHelm": 10
+      }
+    },
+    {
+      "id": "ob-grand-line",
+      "contentType": "objective",
+      "fields": {
+        "key": "grand-line",
+        "name": "Grand Line Survivors",
+        "requiredPositions": [
+          "doctor",
+          "navigator"
+        ],
+        "weightNavigation": 5,
+        "weightProvisions": 3,
+        "weightMedicine": 4,
+        "weightHelm": 2
+      }
+    },
+    {
+      "id": "ob-brawl",
+      "contentType": "objective",
+      "fields": {
+        "key": "brawl",
+        "name": "All-out Brawl",
+        "requiredPositions": [],
+        "weightCombat": 5
+      }
+    },
+    {
+      "id": "ob-festival",
+      "contentType": "objective",
+      "fields": {
+        "key": "festival",
+        "name": "Festival Crew",
+        "requiredPositions": [],
+        "weightProvisions": 3,
+        "weightMorale": 5
+      }
+    },
+    {
+      "id": "cp-straw-hats",
+      "contentType": "crewPreset",
+      "fields": {
+        "key": "straw-hats",
+        "name": "Straw Hat Pirates",
+        "captain": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "ch-luffy"
+          }
+        },
+        "firstMate": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "ch-zoro"
+          }
+        },
+        "navigator": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "ch-nami"
+          }
+        },
+        "sniper": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "ch-usopp"
+          }
+        },
+        "cook": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "ch-sanji"
+          }
+        },
+        "doctor": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "ch-chopper"
+          }
+        },
+        "archaeologist": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "ch-robin"
+          }
+        },
+        "shipwright": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "ch-franky"
+          }
+        },
+        "musician": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "ch-brook"
+          }
+        },
+        "helmsman": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "ch-jinbe"
+          }
+        }
+      }
+    },
+    {
+      "id": "fi-compare",
+      "contentType": "featureItem",
+      "fields": {
+        "title": "Compare",
+        "body": "Side by side, in one position."
+      }
+    },
+    {
+      "id": "bl-hero",
+      "contentType": "blockHero",
+      "fields": {
+        "internalName": "Home hero",
+        "headline": "Build your crew",
+        "featuredCharacter": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "ch-luffy"
+          }
+        },
+        "actionLabel": "Start with the Straw Hats",
+        "actionTarget": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "cp-straw-hats"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "bl-grid",
+      "contentType": "blockFeatureGrid",
+      "fields": {
+        "internalName": "Home grid",
+        "heading": "Meet the crew",
+        "items": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "ch-zoro"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "fi-compare"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "ab-monster-trio"
+            }
+          }
+        ],
+        "actionLabel": "Compare Zoro and Sanji",
+        "actionTarget": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "ch-zoro"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "ch-sanji"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "bl-cta",
+      "contentType": "blockCta",
+      "fields": {
+        "internalName": "Home CTA",
+        "heading": "Survive the Grand Line",
+        "body": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "You need a ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "navigator",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " like ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "entry-hyperlink",
+                  "data": {
+                    "target": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Entry",
+                        "id": "ch-nami"
+                      }
+                    }
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Nami",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "text",
+                  "value": ".",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "actionLabel": "Auto-fill a crew",
+        "actionTarget": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "ob-grand-line"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "bl-quote",
+      "contentType": "blockTestimonial",
+      "fields": {
+        "internalName": "Luffy quote",
+        "quote": "I'm gonna be King of the Pirates!",
+        "speaker": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "ch-luffy"
+          }
+        }
+      }
+    },
+    {
+      "id": "pg-index",
+      "contentType": "page",
+      "fields": {
+        "title": "Home",
+        "slug": "index",
+        "blocks": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "bl-hero"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "bl-grid"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "bl-cta"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "bl-quote"
+            }
+          }
+        ],
+        "concepts": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "co-wano"
+            }
+          }
+        ],
+        "indexable": true
+      }
+    },
+    {
+      "id": "ss-main",
+      "contentType": "siteSettings",
+      "fields": {
+        "internalName": "Site settings",
+        "navigation": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "pg-index"
+            }
+          }
+        ],
+        "footerText": "A learning sandbox.",
+        "namePatterns": [
+          "The {adjective} {noun} Pirates",
+          "{noun} Crew"
+        ],
+        "nameAdjectives": [
+          "Rusty",
+          "Laughing",
+          "Tidal"
+        ],
+        "nameNouns": [
+          "Anchor",
+          "Gull",
+          "Barrel"
+        ]
+      }
+    }
+  ]
+}
