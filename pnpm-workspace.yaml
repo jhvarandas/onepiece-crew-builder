@@ -1,0 +1,8 @@
+allowBuilds:
+  esbuild: true
+  # Its install script only fetches a native binary that optional dependencies already provide.
+  unrs-resolver: false
+
+# Only install versions published at least 7 days ago (in minutes). The registry mirror on
+# this machine lags npm by a few days, and a week-old release is also a smaller supply-chain risk.
+minimumReleaseAge: 10080
